@@ -14,4 +14,5 @@ public class MoveRacket2 : MonoBehaviour
         //Just calling the Rigidbody2D component to change its Velocity value
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v);
     }
+    
 }

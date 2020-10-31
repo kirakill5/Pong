@@ -8,7 +8,7 @@ public class CheckPoint2 : MonoBehaviour
     public int a;
     public int b;
 
-    public void Start  ()
+    public void Start ()
     {
        Debug.Log(Sum(a, b));
        Debug.Log(Prod(a, b)); 
